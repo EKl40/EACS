@@ -2,11 +2,11 @@ package tray
 
 import (
 	"github.com/getlantern/systray"
-	"github.com/psidex/EACS/internal/appdata"
-	"github.com/psidex/EACS/internal/buttons"
-	"github.com/psidex/EACS/internal/icon"
-	"github.com/psidex/EACS/internal/userconfig"
-	"github.com/psidex/EACS/internal/util"
+	"github.com/EKl40/EACS/internal/appdata"
+	"github.com/EKl40/EACS/internal/buttons"
+	"github.com/EKl40/EACS/internal/icon"
+	"github.com/EKl40/EACS/internal/userconfig"
+	"github.com/EKl40/EACS/internal/util"
 	"sort"
 	"strings"
 )

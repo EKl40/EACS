@@ -1,6 +1,7 @@
 name: Go Build
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
   pull_request:
@@ -12,10 +13,23 @@ jobs:
     name: Build
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-go@v2
+      - uses: actions/checkout@v5
+      - uses: actions/setup-go@v6
         with:
-          go-version: '1.14.2'
+          go-version: '1.25.5'
+          go-version-file: './go.mod'
+          cache: false
 
       - run: go get github.com/akavel/rsrc
-      - run: ./build.ps1
+      
+      - name: Build + zip
+        shell: pwsh
+        run: ./build.ps1
+
+      - name: Upload zip artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: EACS
+          path: EACS.zip
+          if-no-files-found: error
+          retention-days: 30

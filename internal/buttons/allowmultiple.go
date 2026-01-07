@@ -2,8 +2,8 @@ package buttons
 
 import (
 	"github.com/getlantern/systray"
-	"github.com/psidex/EACS/internal/appdata"
-	"github.com/psidex/EACS/internal/util"
+	"github.com/EKl40/EACS/internal/appdata"
+	"github.com/EKl40/EACS/internal/util"
 )
 
 // AllowMultipleHandler takes the "Allow Multiple" button and handles it's click event.

@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/getlantern/systray"
-	"github.com/psidex/EACS/internal/tray"
+	"github.com/EKl40/EACS/internal/tray"
 )
 
 func main() {

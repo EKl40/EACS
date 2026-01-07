@@ -1,8 +1,7 @@
 # EACS - Equalizer APO Config Switcher
 
-[![Build status](https://github.com/psidex/EACS/workflows/Go%20Build/badge.svg)](https://github.com/psidex/EACS/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/psidex/EACS)](https://goreportcard.com/report/github.com/psidex/EACS)
-[![buymeacoffee donate link](https://img.shields.io/badge/Donate-Beer-FFDD00.svg?style=flat&colorA=35383d)](https://www.buymeacoffee.com/psidex)
+[![Build status](https://github.com/EKl40/EACS/workflows/Go%20Build/badge.svg)](https://github.com/EKl40/EACS/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/EKl40/EACS)](https://goreportcard.com/report/github.com/EKl40/EACS)
 
 A small Windows tray app that allows you to quickly switch between using different [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) configuration files.
 
@@ -27,7 +26,7 @@ Inspired by [Peace](https://sourceforge.net/projects/peace-equalizer-apo-extensi
 ## Install
 
 - Create a directory called "EACS" in `<Equalizer APO install location>\EqualizerAPO\config`.
-- Download the latest `EACS.zip` from [releases](https://github.com/psidex/EACS/releases/latest).
+- Download the latest `EACS.zip` from [releases](https://github.com/EKl40/EACS/releases/latest).
 - Extract the zip to the directory you just created.
   - If you did this correctly, the exe should be at `EqualizerAPO\config\EACS\EACS.exe`
 - Run `EACS.exe`.
